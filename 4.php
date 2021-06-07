@@ -33,17 +33,13 @@
 
 
  */
-		function value($value1, $value2)
+		function value($hello)
 		{
-			$sum = $value1 + $value2;
-			return $sum;
+			echo $hello;
 		}
+		value($hello);
 
-		$result = value(34, 28);
-		echo "<br>";
-		echo $result . "<br>";
-		$result = value(64, $result);
-		echo $result;
+
 
 		?>
 
